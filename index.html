@@ -1,44 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<title> curriculo de faro </title>
+    <meta charset="UTF-8">
+    <title>Currículo de Faro</title>
+    <style>
+        body {
+            color: white;
+            background: url('wpp.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: rgba(0,0,0,0.7);
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 600px;
+        }
+        h1, h3, marquee {
+            text-align: center;
+        }
+        img.profile {
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 50%;
+            width: 120px;
+            height: auto;
+        }
+        hr {
+            border: 1px solid #fff;
+        }
+        a {
+            color: #00e6e6;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
 </head>
 <body>
-<center>
- <h1><font color="white">CURRICULUM VITAE</font></h1> 
-</center>
-<center>
- <img src=forma.jpeg width=15%></center>
-<img src="wpp.jpg"
- style="position:fixed; top:0;
-left:0; width:100%; height:100%;z-index:-1">
-<source src="video1.mp4" type="video/mp4">
-<marquee><font color="white">CRISTIAN SANTOS RIBEIRO</font></marquee>
-<audio controls>
-<source src="RIM.MP3" type="audio/mp3">
-</audio>
-<hr>
-<h3><font color="white"><I>DADOS PESSOAIS:</I><font/></h3>
-<ul>
-<li>ENDEREÇO : TRAVESSA ADEMAR DE OLIVEIRA, N 70
-<li>CELULAR : (75) 99885-2992
-<li>EMAIL : CRISTIANSANTOSRIBEIRO0110@GMAIL.COM
-</ul>
-<h3><I>ESCOLARIDADE:</I><h3>
-<ul>
-<li>FORMADO NO ENSINO MÉDIO - C.E.T.I.I
-<A
-href="https://www.instagram.com/Cetii.Itamira" target="_blank"> Clique aqui e acesse o instagram do CETII </A>
-</li>
-<li>SISTEMAS DE INFORMAÇÃO - F.SS.S - ATUAL 
-<A
-href="https://fsssacramento.br/" target="_blank">(Clique aqui e acesse o site da FSSS)</A>
-</li>
-</ul>
-<h3><I>CURSOS EXTRAS:</I><h3>
-<ul>
-<li>SERVIÇOS GERAIS - GINÁSIO APORÁ - 18 HORAS
-</uL>
-
-
+    <div class="container">
+        <h1>CURRICULUM VITAE</h1>
+        <img src="forma.jpeg" alt="Foto de Perfil" class="profile">
+        <marquee>CRISTIAN SANTOS RIBEIRO</marquee>
+        <audio controls>
+            <source src="RIM.MP3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <hr>
+        <h3><i>DADOS PESSOAIS:</i></h3>
+        <ul>
+            <li><strong>ENDEREÇO:</strong> TRAVESSA ADEMAR DE OLIVEIRA, N 70</li>
+            <li><strong>CELULAR:</strong> (75) 99885-2992</li>
+            <li><strong>EMAIL:</strong> CRISTIANSANTOSRIBEIRO0110@GMAIL.COM</li>
+        </ul>
+        <h3><i>ESCOLARIDADE:</i></h3>
+        <ul>
+            <li>
+                FORMADO NO ENSINO MÉDIO - C.E.T.I.I
+                <a href="https://www.instagram.com/Cetii.Itamira" target="_blank">Clique aqui e acesse o instagram do CETII</a>
+            </li>
+            <li>
+                SISTEMAS DE INFORMAÇÃO - F.SS.S - ATUAL
+                <a href="https://fsssacramento.br/" target="_blank">(Clique aqui e acesse o site da FSSS)</a>
+            </li>
+        </ul>
+        <h3><i>CURSOS EXTRAS:</i></h3>
+        <ul>
+            <li>SERVIÇOS GERAIS - GINÁSIO APORÁ - 18 HORAS</li>
+        </ul>
+    </div>
+    <!-- Opcional: vídeo de fundo (não exibido por padrão) -->
+    <!--
+    <video autoplay muted loop style="position:fixed; top:0; left:0; width:100%; height:100%; z-index:-2; object-fit:cover;">
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+    -->
 </body>
 </html>
